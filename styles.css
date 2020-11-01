@@ -5,7 +5,7 @@
   --animate-mouth: none;
   --animate-filter: none;
   --animate-opacity: none;
-  --cursor: url(https://i.imgur.com/sHRwdKv.png), pointer;
+  --cursor: url(/assets/cursorwhite.png), pointer;
 }
 
 html {
