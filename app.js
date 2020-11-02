@@ -45,10 +45,10 @@ function switchOn(animations) {
 
 function switchOff(animations) {  
   animations.map(animation => {
-    document.documentElement.style.setProperty(animation.varName, animation.bodySection['none'])
+    document.documentElement.style.setProperty(animation.varName, animation.bodySection["none"]);
   })
 	document.documentElement.style.setProperty("--cursor", cursorL);
-	pumpkin.style.pointerEvents = "auto";
+	// pumpkin.style.pointerEvents = "auto";
 	
 	return lightOn = false;
 };
