@@ -27,8 +27,8 @@ const animations = [
   },
 ]
 
-const cursorL = "url(/assets/cursorwhite.png), pointer";
-const cursorD = "url(/assets/cursordarkness.png), pointer";
+const cursorL = "url(assets/cursorwhite.png), pointer";
+const cursorD = "url(assets/cursordarkness.png), pointer";
 const pumpkin = document.querySelector('.pumpkin');
 
 let lightOn = false;
