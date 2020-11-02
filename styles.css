@@ -5,7 +5,7 @@
   --animate-mouth: none;
   --animate-filter: none;
   --animate-opacity: none;
-  --cursor: url(assets/cursorwhite.png), pointer;
+  --cursor: url(/assets/cursorwhite.png), pointer;
 }
 
 html {
