@@ -48,7 +48,6 @@ function switchOff(animations) {
     document.documentElement.style.setProperty(animation.varName, animation.bodySection["none"]);
   })
 	document.documentElement.style.setProperty("--cursor", cursorL);
-	// pumpkin.style.pointerEvents = "auto";
 	
 	return lightOn = false;
 };
