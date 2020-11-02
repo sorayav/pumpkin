@@ -52,9 +52,9 @@ function switchOff(animations) {
 	return lightOn = false;
 };
 
-	pumpkin.addEventListener('click', () => {
-		(!lightOn) ? switchOn(animations) : switchOff(animations);
-	});
-	pumpkin.addEventListener('animationend',() => {
-		pumpkin.style.pointerEvents = "auto";
-	});
+pumpkin.addEventListener('click', () => {
+	(!lightOn) ? switchOn(animations) : switchOff(animations);
+});
+pumpkin.addEventListener('animationend',() => {
+	pumpkin.style.pointerEvents = "auto";
+});
